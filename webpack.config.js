@@ -26,6 +26,9 @@ module.exports = {
         test: /\.(eot|otf|ttf|woff|woff2)$/,
         use: 'url-loader',
       },
-    ]
+    ],
+  },
+  resolve: {
+    modules: ['node_modules', 'src'],
   },
 };
